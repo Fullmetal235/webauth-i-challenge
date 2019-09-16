@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Fullmetal235/webauth-i-challenge#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "knex": "^0.19.4",
     "sqlite3": "^4.1.0"
   }
