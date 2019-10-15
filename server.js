@@ -4,7 +4,7 @@ const session = require('express-session')
 const KnexSessionStore = require('connect-session-knex')(session)
 
 const dbConnection = require('./data/dbConfig.js')
-const userRouter = require('./users/userRouter.js')
+const userRouter = require('./user/userRouter.js')
 
 const server = express()
 
